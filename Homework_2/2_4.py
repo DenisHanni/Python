@@ -1,0 +1,7 @@
+num_1 = int(input('Введите число 1: '))
+num_2 = int(input('Введите число 2: '))
+num_3 = int(input('Введите число 3: '))
+positive = (num_1 > 0) + (num_2 > 0) + (num_3 > 0)
+negative = (num_1 < 0) + (num_2 < 0) + (num_3 < 0)
+print('Положительных - {}'.format(positive))
+print('Отрицательных - {}'.format(negative))
